@@ -10,7 +10,7 @@ html {
 }
 
 .main {
-    /* background: linear-gradient(131.1deg, rgba(54, 133, 251, 0.05) 0%, rgba(54, 133, 251, 0) 73.29%); */
+
 }
 
 .header {
@@ -535,14 +535,13 @@ html {
 
 #content__contact {
     background: #F5F9FF;
-    position: relative;
 }
 
 .content__contact-bg1 {
     position: absolute;
     width: 163px;
     height: 163px;
-    left: 269px;
+    left: -78px;
     top: 79px;
     border: 14px solid #EDF4FF;
     border-radius: 50%;
@@ -553,7 +552,7 @@ html {
     position: absolute;
     width: 163px;
     height: 163px;
-    right: 266px;
+    right: -85px;
     top: 41px;
     border: 14px solid #EDF4FF;
     border-radius: 50%;
@@ -564,7 +563,7 @@ html {
     position: absolute;
     width: 163px;
     height: 163px;
-    right: 297px;
+    right: -43px;
     bottom: 36px;
     border: 14px solid #EDF4FF;
     border-radius: 50%;
@@ -572,6 +571,7 @@ html {
 }
 
 .content__contact-content {
+    position: relative;
     width: 1200px;
     margin: 0 auto;
     padding: 96px 0;
@@ -607,6 +607,7 @@ html {
 }
 
 .content__contact-content-input-warp {
+    position: relative;
     display: flex;
     width: 470px;
     height: 64px;
@@ -616,7 +617,6 @@ html {
 }
 
 .content__contact-content-input {
-    position: relative;
     height: 100%;
     width: 100%;
     padding: 0 188px 0 28px;
@@ -634,7 +634,7 @@ html {
 
 .content__contact-content-btn {
     position: absolute;
-    right: 352px;
+    right: 0;
     width: 160px;
     height: 64px;
     background: #3685FB;
